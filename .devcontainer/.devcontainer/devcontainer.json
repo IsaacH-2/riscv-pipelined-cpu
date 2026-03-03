@@ -1,0 +1,4 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "sudo apt update && sudo apt install -y iverilog gtkwave gcc-riscv64-unknown-elf"
+}
